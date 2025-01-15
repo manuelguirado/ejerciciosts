@@ -60,6 +60,7 @@ let logs = [
 "2021-01-02 00:00:01 ERROR file3",
 "2021-01-02 23:59:59 WARNING file1",
 "2021-01-03 00:00:00 WARNING file2",
-"2021-01-03 00:00:01 WARNING file3"
+"2021-01-03 00:00:01 WARNING file3",
+"2021-01-03 23:59:59 ERROR file1",
 ];
-console.log(logAnalizer(logs)); // Output 
+console.log(logAnalizer(logs)); 
