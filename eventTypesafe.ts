@@ -33,12 +33,10 @@ function EventEmitter() {
   }
  
 
-  return {
-    on,
-    emit,
-  
-  };
+  return {on, emit}
+
 }
+
 
 // usage
 const emmitter = EventEmitter();
